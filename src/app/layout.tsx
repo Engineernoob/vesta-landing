@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Vesta",
     images: [
       {
-        url: "/image.jpg",
+        url: "/image.png",
         width: 1200,
         height: 630,
         alt: "Vesta — Where Ambition Meets Comfort",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Vesta — Where Ambition Meets Comfort",
     description:
       "A curated, women-first dating app for ambitious homebody women. Think LinkedIn + Netflix + Raya.",
-    images: ["/image.jpg"],
+    images: ["/image.png"],
   },
 };
 
