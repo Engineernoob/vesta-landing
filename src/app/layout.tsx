@@ -1,3 +1,5 @@
+"use client";
+
 import type { Metadata } from "next";
 import { Playfair_Display, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -24,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Vesta",
     images: [
       {
-        url: "/og-image.png", // add a social preview image later
+        url: "public/image.jpg", // add a social preview image later
         width: 1200,
         height: 630,
         alt: "Vesta App",

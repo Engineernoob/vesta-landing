@@ -20,7 +20,7 @@ export default function Home() {
           href="#contact"
           className="inline-block bg-accent text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-accent/90 transition-colors"
         >
-          Be My Co-Founde
+          Be My Co-Founder
         </a>
       </section>
 
