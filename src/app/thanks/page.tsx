@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Thanks for Joining – Vesta",
     description:
       "You’re on the list! 🎉 Vesta is the women-first dating app where ambition meets comfort.",
-    url: "https://vesta-app.vercel.app/thanks",
+    url: "https://joinvesta.vercel.app/thanks",
     siteName: "Vesta",
     images: [
       {

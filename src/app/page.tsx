@@ -141,7 +141,7 @@ export default function Home() {
             <input
               type="hidden"
               name="_next"
-              value="https://vesta-app.vercel.app/thanks"
+              value="https://joinvesta.vercel.app/thanks"
             />
           </form>
           <a
@@ -204,7 +204,7 @@ export default function Home() {
             <input
               type="hidden"
               name="_next"
-              value="https://vesta-app.vercel.app/thanks"
+              value="https://joinvesta.vercel.app/thanks"
             />
           </form>
         </div>
