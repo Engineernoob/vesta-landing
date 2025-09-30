@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vesta — Where Ambition Meets Comfort
 
-## Getting Started
+Vesta is a women-first dating app concept designed for **ambitious, homebody women** who want equally ambitious men.  
+Think **LinkedIn + Netflix + Raya**: verified ambition, cozy lifestyle alignment, and exclusivity.
 
-First, run the development server:
+---
+
+## 🌟 Vision
+
+Most dating apps optimize for engagement and swipes, not for meaningful matches.  
+Ambitious women — often with multiple degrees and strong careers — get flooded with low-effort, low-quality matches.
+
+Vesta flips the script:
+
+- **Women-first by design** → safe, curated, and exclusive.
+- **Career + lifestyle alignment** → LinkedIn-style verification meets cozy, homebody vibes.
+- **Quality over quantity** → AI-powered compatibility, not endless swiping.
+
+---
+
+## ✨ Key Features (Planned)
+
+- **Verified Profiles** — LinkedIn sync, lifestyle preferences, optional badges.
+- **Women-First Safety** — curated invites, limited intros, respectful engagement.
+- **Smart Matching** — AI that considers ambition, goals, education, and lifestyle.
+- **Cozy Experiences** — built-in “date night” features (co-watch, cook-alongs, book swaps).
+- **Exclusivity** — invite-only waitlist to maintain quality.
+
+---
+
+## 🛠 Tech Stack (MVP)
+
+- **Frontend:** Next.js + Tailwind CSS (deployed on Vercel)
+- **Backend (planned):** Node.js + GraphQL + Postgres
+- **AI Matching:** embeddings for compatibility + LLM-powered conversation starters
+- **Infra:** Docker, potential AWS/GCP deployment
+- **Design:** Inter (UI) + Playfair Display (brand headlines), lavender + gold accents
+
+---
+
+## 🤝 The Ask
+
+I’m **Taahirah Denmark**, a technical founder with a background in AI/ML and full-stack engineering.  
+I’ve built multiple products (agentic AI systems, SaaS dashboards, and overlay assistants). Now I want to build **Vesta**, a dating app that finally respects ambitious women.
+
+I’m looking for:
+
+- 👩‍💼 **Female co-founder (brand & community lead)** — experience in brand building, lifestyle products, or women-first communities.
+- 🎨 Product Designer — elegant UI/UX, brand identity.
+- 📱 Mobile Developer — React Native or iOS/Android.
+- 📈 Growth/Partnerships Lead — launch strategy, community, PR.
+
+---
+
+## 🚀 Getting Started (Landing Page)
+
+This repo currently contains the **Vesta landing page** — designed to recruit a co-founder, early teammates, and interested users.
+
+### Run locally
 
 ```bash
+# Install dependencies
+npm install
+
+# Run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000 in your browser
+
+Deploy
+
+This project is optimized for Vercel:
+
+vercel deploy
+
+📬 Contact
+
+Email: yourname@yourdomain.com
+
+Twitter: @yourhandle
+
+LinkedIn: Your Profile
+
+Or join the waitlist at Vesta Landing Page
+
+📌 Status
+
+✅ Landing page live (Next.js + Tailwind).
+
+🛠 MVP design + backend matching system in progress.
+
+🚨 Currently recruiting a female co-founder + early team.
+
+Privacy and transparency by design. No hidden profiles. No exploitative engagement.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
