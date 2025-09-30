@@ -5,18 +5,20 @@ import "./globals.css";
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "Vesta — Where Ambition Meets Comfort",
   description:
     "Vesta is a women-first dating app for ambitious, homebody women who want equally ambitious men. Think LinkedIn + Netflix + Raya.",
-  metadataBase: new URL("https://vesta.app"), // replace with your actual domain
+  metadataBase: new URL("https://vesta.app"), // replace with your domain
   openGraph: {
     title: "Vesta — Where Ambition Meets Comfort",
     description:
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Vesta",
     images: [
       {
-        url: "/image.jpg", // file in /public
+        url: "/image.jpg",
         width: 1200,
         height: 630,
         alt: "Vesta — Where Ambition Meets Comfort",
@@ -38,7 +40,7 @@ export const metadata: Metadata = {
     title: "Vesta — Where Ambition Meets Comfort",
     description:
       "A curated, women-first dating app for ambitious homebody women. Think LinkedIn + Netflix + Raya.",
-    images: ["/image.jpg"], // file in /public
+    images: ["/image.jpg"],
   },
 };
 
@@ -48,12 +50,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${playfairDisplay.variable} ${geistMono.variable} antialiased`}
+        className={`${playfairDisplay.variable} ${geistMono.variable} antialiased bg-white text-black dark:bg-black dark:text-white`}
       >
-        {children}
+        <main className="flex min-h-screen flex-col items-center justify-center text-center px-6">
+          {children}
+        </main>
       </body>
     </html>
   );
 }
+
