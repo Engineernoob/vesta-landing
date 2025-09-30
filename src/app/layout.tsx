@@ -16,15 +16,16 @@ export const metadata: Metadata = {
   title: "Vesta — Where Ambition Meets Comfort",
   description:
     "Vesta is a women-first dating app for ambitious, homebody women who want equally ambitious men. Think LinkedIn + Netflix + Raya.",
+  metadataBase: new URL("https://vesta.app"), // replace with your actual domain
   openGraph: {
     title: "Vesta — Where Ambition Meets Comfort",
     description:
       "Curated dating for ambitious women and equally ambitious men. Women-first, cozy, exclusive.",
-    url: "https://vesta.app", // replace with your actual domain
+    url: "https://vesta.app",
     siteName: "Vesta",
     images: [
       {
-        url: "public/image.jpg", // add a social preview image later
+        url: "public/image.jpg",
         width: 1200,
         height: 630,
         alt: "Vesta App",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     title: "Vesta — Where Ambition Meets Comfort",
     description:
       "A curated, women-first dating app for ambitious homebody women. Think LinkedIn + Netflix + Raya.",
-    images: ["/og-image.png"],
+    images: ["public/image.jpg"],
   },
 };
 
