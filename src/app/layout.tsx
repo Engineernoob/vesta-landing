@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: "Vesta — Where Ambition Meets Comfort",
   description:
     "Vesta is a women-first dating app for ambitious, homebody women who want equally ambitious men. Think LinkedIn + Netflix + Raya.",
-  metadataBase: new URL("https://vesta.app"), // replace with your domain
+  metadataBase: new URL("https://joinvesta.vercel.app/"), // replace with your domain
   openGraph: {
     title: "Vesta — Where Ambition Meets Comfort",
     description:
       "Curated dating for ambitious women and equally ambitious men. Women-first, cozy, exclusive.",
-    url: "https://vesta.app",
+    url: "https://joinvesta.vercel.app/",
     siteName: "Vesta",
     images: [
       {
