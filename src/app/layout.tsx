@@ -1,5 +1,3 @@
-"use client";
-
 import type { Metadata } from "next";
 import { Playfair_Display, Geist_Mono } from "next/font/google";
 import "./globals.css";
